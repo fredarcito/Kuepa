@@ -1,0 +1,13 @@
+<app-header-report></app-header-report>
+
+<section class="report-container">
+    <app-filter-report (filters)="getFilters($event)" ></app-filter-report>
+
+    <app-list-report [report]="report"></app-list-report>
+
+    <app-paginator-report></app-paginator-report>
+</section>
+
+
+
+<app-footer-report></app-footer-report>

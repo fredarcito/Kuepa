@@ -1,0 +1,88 @@
+[
+    {
+        "campus":{
+            "name": "Sede A",
+            "id": "1",
+            "courses":[
+                {
+                    "name": "Bachillerato",
+                    "id": "1",
+                     "assistance":[
+                         {"studend": "Juan Garcia", "assists": 8, "absences": 2},
+                         {"studend": "Pedro Garcia", "assists": 7, "absences": 3},
+                         {"studend": "Luis Montañez", "assists": 10, "absences": 0},
+                         {"studend": "Siri Gonzales", "assists": 2, "absences": 8},
+                         {"studend": "Oswald Cobblepot", "assists": 1, "absences": 9}
+                     ]
+                },
+                {
+                    "name": "Ingles",
+                    "id": "2",
+                     "assistance":[
+                         {"studend": "Jeremiah Valeska", "assists": 4, "absences": 6},
+                         {"studend": "Pedro Garcia", "assists": 8, "absences": 2},
+                         {"studend": "Bruce Wayne", "assists": 10, "absences": 0},
+                         {"studend": "Siri Gonzales", "assists": 10, "absences": 0},
+                         {"studend": "Oliver Atom", "assists": 2, "absences": 8}
+                     ]
+                },
+                {
+                    "name": "Tecnico desarrollo software",
+                    "id": "3",
+                     "assistance":[
+                         {"studend": "Steve Wozniak", "assists": 5, "absences": 5},
+                         {"studend": "Steve Jobs", "assists": 8, "absences": 2},
+                         {"studend": "Bill Gates", "assists": 10, "absences": 0},
+                         {"studend": "Siri Gonzales", "assists": 10, "absences": 0},
+                         {"studend": "Linus Torvalds", "assists": 10, "absences": 0}
+                     ]
+                }
+
+            ]
+        }
+    },
+
+    {
+        "campus":{
+            "name": "Sede B",
+            "id": "2",
+            "courses":[
+                {
+                    "name": "Bachillerato",
+                    "id": "1",
+                     "assistance":[
+                         {"studend": "Freddy Garcia", "assists": 10, "absences": 0},
+                         {"studend": "Pedro Garcia", "assists": 10, "absences": 0},
+                         {"studend": "Juan Carlos Montañez", "assists": 10, "absences": 0},
+                         {"studend": "Alexa Gonzales", "assists": 0, "absences": 10},
+                         {"studend": "Oswald Cobblepot", "assists": 10, "absences": 0}
+                     ]
+                },
+                {
+                    "name": "Ingles",
+                    "id": "2",
+                     "assistance":[
+                         {"studend": "Jeremiah Valeska", "assists": 4, "absences": 6},
+                         {"studend": "Tony Stark", "assists": 8, "absences": 2},
+                         {"studend": "Bruce Wayne", "assists": 10, "absences": 0},
+                         {"studend": "Siri Gonzales", "assists": 10, "absences": 0},
+                         {"studend": "Chris Rogers", "assists": 2, "absences": 8}
+                     ]
+                },
+                {
+                    "name": "Tecnico desarrollo software",
+                    "id": "3",
+                     "assistance":[
+                         {"studend": "Steve Wozniak", "assists": 5, "absences": 5},
+                         {"studend": "Steve Jobs", "assists": 8, "absences": 2},
+                         {"studend": "Bill Gates", "assists": 10, "absences": 0},
+                         {"studend": "Siri Gonzales", "assists": 10, "absences": 0},
+                         {"studend": "Linus Torvalds", "assists": 10, "absences": 0}
+                     ]
+                }
+
+            ]
+        }
+    }
+    
+]

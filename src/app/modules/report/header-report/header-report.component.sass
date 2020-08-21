@@ -1,0 +1,42 @@
+header
+    background: rgba(255, 255, 255, 0.985)
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05)
+    align-items: center
+    position: relative
+    padding: 1rem
+
+figure
+    width: 10%
+    margin-top: 5px
+    img
+        width: 100%
+
+ul
+    display: flex
+    justify-content: space-around
+    width: 25%
+    li
+        list-style: none
+        a
+            cursor: pointer
+
+
+.avatar
+    border-radius: 50%
+    width: 40px
+    padding: 0
+    position: absolute
+    right: 1rem
+    img
+        border-radius: 50%
+        height: 40px
+
+
+@media screen and ( max-width: 650px )
+    figure
+        width: 20%
+    ul
+        width: 60%
+        li
+            a
+                font-size: .8rem

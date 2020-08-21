@@ -1,0 +1,21 @@
+<section class="report">
+
+    <table>
+        <tr>
+          <th>Estudiante</th>
+          <th class="no-mobile">Curso</th>
+          <th class="no-mobile">Sede</th>
+          <th>Asistencias</th>
+          <th>Inasistencias</th>
+        </tr>
+        <tr *ngFor="let student of report">
+          <td>{{student.studentName}}</td>
+          <td class="no-mobile">{{student.course}}</td>
+          <td class="no-mobile">{{student.campusName}}</td>
+          <td>{{student.assists}}</td>
+          <td>{{student.absences}}</td>
+        </tr>
+
+      </table>
+
+</section>

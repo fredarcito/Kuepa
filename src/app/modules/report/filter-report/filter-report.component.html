@@ -1,0 +1,26 @@
+
+<form [formGroup]="formFilters" (ngSubmit)="submit()" class="d-flex">
+    <div class="row">
+        <label>Sede Educativa: </label>
+        <select  formControlName="campus" >
+            <option [value]="element.id" *ngFor="let element of campus; let i = index">{{ element.name }}</option>
+        </select>
+        <span class="error" *ngIf="showErrors && formFilters.get('campus').invalid">Seleccione una opcion</span>
+    </div>
+    
+    <div class="row">
+        <label>Fechas: </label>
+        <input formControlName="date" type="text" name="daterangeInput" daterangepicker [options]="options" (selected)="selectedDate($event, daterange)" />
+    </div>
+    
+    <div class="row">
+        <label>Curso: </label>
+        <select formControlName="course">
+            <option [value]="element.id" *ngFor="let element of courses; let i = index">{{ element.name }}</option>
+        </select>
+        <span class="error" *ngIf="showErrors && formFilters.get('course').invalid">Seleccione una opcion</span>
+    </div>
+    
+    <button type="submit">Enviar</button>
+
+</form>

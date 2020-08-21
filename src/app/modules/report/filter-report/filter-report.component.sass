@@ -1,0 +1,50 @@
+form
+    align-items: center
+    margin-top: 1rem
+
+label
+    display: block
+    margin: 5px 0
+
+input, select
+    outline: none
+    padding: 7px 10px 7px
+    border-radius: 2px
+    background: #fafafa
+    border: 1px solid #ccc
+    text-overflow: ellipsis
+    white-space: nowrap
+    overflow: hidden
+    min-width: 200px
+
+button
+    margin-top: 1.9rem
+    color: #fff
+    background-color: #ff671b
+    border-color: transparent
+    padding: 8px 15px 8px
+    border: 1px solid rgba(0, 0, 0, 0.2)
+    border-radius: 6px
+    cursor: pointer
+    outline: none
+
+.row
+    margin-right: 1rem
+    position: relative
+
+.error
+    color: #cb000a
+    position: absolute
+    bottom: -1.2rem
+    left: 0
+    font-size: .8rem
+
+
+@media screen and ( max-width: 650px )
+    form
+        margin-top: .5rem
+
+@media screen and ( max-width: 360px )
+    button
+        margin-top: .9rem
+
